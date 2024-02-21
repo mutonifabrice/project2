@@ -1,0 +1,11 @@
+<h1>Bienvenue sur la page d'admission des étudiants</h1>
+<p>Profitez de votre visite et complétez le processus d'admission.</p>
+<form action="studentUploadServlet" method="POST" enctype="multipart/form-data">
+    <p>Sélectionnez votre photo ou fichier : <input type="file" name="fileToUpload"></p>
+    <p><input type="submit" value="Télécharger"></p>
+</form>
+<form action="sendConfirmationEmail" method="POST">
+    <input type="text" name="recipientEmail" placeholder="Email du destinataire" required>
+    <input type="text" name="confirmationCode" placeholder="Code de confirmation" required>
+    <input type="submit" value="Envoyer un e-mail de confirmation">
+</form>

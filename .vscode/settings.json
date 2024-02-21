@@ -1,0 +1,16 @@
+{
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\hp\\Downloads\\activation.jar\\activation.jar",
+            "c:\\Users\\hp\\Downloads\\common-common-2.0.0-beta02-sources.jar\\common-common-2.0.0-beta02-sources.jar",
+            "c:\\Users\\hp\\Downloads\\javax.mail-1.5.6.jar\\javax.mail-1.5.6.jar"
+        ],
+        "exclude": [
+            "c:\\Users\\amine\\Downloads\\activation.jar.zip",
+            "c:\\Users\\amine\\Downloads\\commons-fileupload2-2.0.0-M1-bin\\commons-fileupload2-2.0.0-M1\\commons-fileupload2-core-2.0.0-M1.jar",
+            "c:\\Users\\amine\\Downloads\\javax.mail.jar",
+            "c:\\Users\\Admin\\Downloads\\apache-tomcat-9.0.80-windows-x64\\apache-tomcat-9.0.80\\lib\\servlet-api.jar"
+        ]
+    }
+}
